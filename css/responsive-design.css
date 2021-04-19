@@ -1,0 +1,32 @@
+@media only screen and (max-width:800px) {
+    
+    /** Img Header **/
+    .img-header .header-info h2{
+        font-size: 50px;
+    }
+    .img-header .header-info hr{
+        width: 400px;
+    }
+    .img-header .header-info p{
+        font-size: 19px;
+    }
+    /** camion**/
+    .camion-info h2{font-size: 30px;}
+    .camion-info p{font-size: 17px;}
+    .camion .camion-img{width: 80%;}
+
+    /** señor **/
+    .señor .figure-img h4{font-size: 30px; line-height: 50px;}
+    
+    /** Gallery **/
+    .gallery-container{
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(9,350px);
+    }
+
+    /** Modal **/
+    .gallery-list{
+       display: none;
+    }
+
+}
