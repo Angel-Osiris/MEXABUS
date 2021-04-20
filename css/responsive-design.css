@@ -54,8 +54,8 @@
 
     .modal-gallery .close-modal{
         position: absolute;
-        top: 5px;
-        right: 5px;
+        top: 20px;
+        right: 20px;
         font-size:30px;
         
     }
