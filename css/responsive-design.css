@@ -8,7 +8,7 @@
         width: 400px;
     }
     .img-header .header-info p{
-        font-size: 19px;
+        font-size: 15px;
     }
     /** camion**/
     .camion-info h2{font-size: 30px;}
@@ -17,7 +17,32 @@
 
     /** señor **/
     .señor .figure-img h4{font-size: 30px; line-height: 50px;}
+    .go-top{
+
     
+            position: fixed;
+            bottom:20px;
+            right: 5%;
+            width: 30px;
+            height: 30px;
+            background:#AEB7BD;
+            border:3px solid #33ff77;
+    }
+        /* Mexabus**/.menu .log-box{margin-left: 50px;}
+        .menu .log-box h1{
+            font-size:20px;
+            
+        }
+
+        .menu .list-container .lists li a{
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding:1px;
+            margin:0px 10px;
+            
+    
+        }
     /** Gallery **/
     .gallery-container{
     grid-template-columns:1fr;
@@ -25,8 +50,28 @@
     }
 
     /** Modal **/
+
+
+    .modal-gallery .close-modal{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size:30px;
+        
+    }
+    .modal-gallery #imgModal{
+        width:100%;
+        height: 80%;
+        object-fit: contain;
+    }
+   
     .gallery-list{
        display: none;
+    }
+
+    #footer{
+
+        width: 100%;
     }
 
 }
