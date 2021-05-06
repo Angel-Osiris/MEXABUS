@@ -1,0 +1,134 @@
+@media only screen and (max-width:900px) {
+    
+    /** Img Header **/
+
+
+
+
+    .img-header .header-info h2{
+        font-size: 50px;
+    }
+    .img-header .header-info hr{
+        width: 400px;
+    }
+    .img-header .header-info p{
+        font-size: 15px;
+    }
+    /** camion**/
+    #header{
+    margin-top: 0px;
+
+
+    }
+
+
+
+
+    .camion .img-camion{
+
+        
+        background-size: 100% 100%;
+    
+        
+    }
+
+
+    .camion .img-camion .Descripccion{
+
+  
+        font-size: 12px;
+        top: 100px;
+      
+      
+    }
+    
+    
+    .camion .img-camion{width: 100%;}
+
+
+    .camion .img-camion .Descripccion2{
+    
+      
+        font-size: 10px;
+
+        top:700px
+    }
+
+    
+
+
+    .camion .img-camion .Descripccion21{
+    
+      
+        font-size: 10px;
+        top:750px
+
+    }
+
+    .camion .img-camion .Descripccion22{
+    
+      
+        font-size: 10px;
+        top:800px;
+    
+
+    }
+
+
+
+
+    /** señor **/
+    .señor .figure-img h4{font-size: 30px; line-height: 50px;}
+
+        /* Mexabus**/.menu .log-box{margin-left: 50px;}
+        .menu .log-box h1{
+            font-size:20px;
+            
+        }
+
+        .menu .list-container .lists li a{
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding:1px;
+            margin:0px 10px;
+            
+    
+        }
+
+
+
+
+
+
+
+    /** Gallery **/
+
+
+
+    .gallery-section {
+
+
+        width: 100%;
+        height: 100%;
+       
+        
+    
+    }
+    .gallery-section img{
+
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        
+    
+    }
+
+    #footer{
+
+        width: 100%;
+        
+    }
+
+}

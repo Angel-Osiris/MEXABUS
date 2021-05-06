@@ -1,0 +1,51 @@
+@media only screen and (max-width:800px) {
+
+.container {
+
+    position:center;
+    
+    width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.container .image img{
+ position: center;
+ width: max-content;
+ left: 10px;
+ top: 100px;
+
+
+}
+
+
+.title .image hr{
+
+  background-color:  #548235;
+  position: relative;
+  height:5px;
+  right: 50px;
+  width: 300px;
+  top: 100px;
+  
+  
+  }
+
+
+  .title .titulo  {
+
+height: 100%;
+    
+  
+  }
+
+.title .titulo p {
+  font-size: 40px;
+
+}
+
+
+
+}

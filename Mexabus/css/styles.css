@@ -1,0 +1,415 @@
+
+    @font-face {
+        font-family:Mexican;
+        src: url(../Fonts/mexican-tequila/MexicanTequila.ttf);
+
+    }
+
+    
+    @font-face {
+
+        font-family:Oswald ;
+        src: url(../Fonts/Oswald/static/Oswald-Regular.ttf);
+    }
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    }
+
+
+
+body{
+    background: #fff;
+    overflow-x:hidden ;
+}
+
+/** Header **/
+#header{
+    width: 100%;
+    position: relative;
+}
+/** Img Header **/
+.img-header{
+    
+    background: url(../images/FONDO\ PAG.png);
+    background-attachment: fixed;
+    background-position:relative;
+    background-size: 100% 100%;
+    background-color:#fff;
+    
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.img-header .header-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+.img-header .header-info h2{
+    color:#3d943d;
+    font-size: 120px;
+    font-weight: normal;
+    font-family: Mexican;
+}
+.img-header .header-info hr{
+    border:none;
+    outline: none;
+    height: 2px;
+    background: #3d943d;
+    width: 600px;
+    margin:15px 0px;
+}
+.img-header .header-info p{
+    color: #3d943d;
+    font-size: 30px;
+    font-family:Oswald;
+}
+
+/** Navegation Menu **/
+.menu{
+    width: 100%;
+    height: 66px;
+    background: #548235;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #fff;
+}
+.menu .btn-menu{display: none;}
+.menu .log-box{margin-top: 10px;}
+.menu .log-box{margin-left: 50px;}
+.menu .log-box h1{
+    font-weight: normal;
+    font-size:40px;
+    font-family: Mexican;
+    color:#fff;
+}
+.menu .list-container{margin-right:20px; transition: 0.5s;}
+.menu .list-container .lists{display: flex;}
+.menu .list-container .lists li{list-style: none;}
+.menu .list-container .lists li a{
+    text-decoration: none;
+    color:#000;
+    border-radius: 5px;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    margin:0px 10px;
+    transition: 0.3s;
+}
+.menu .list-container .lists li a.active{
+    font-family: Oswald;
+    background:#fff;
+    color:#548235;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+/** Main **/
+#main{
+    width: 100%;
+    margin: 0;
+    
+}
+
+/** Mission **/
+.camion{
+    width: 100%;
+position:relative;
+height: 100%;
+
+} 
+
+
+.camion .img-camion{
+
+    background: url(../images/fondo\ pag\ color\ 2\ \(1\).png);
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    position: relative;
+    width: 100%;
+    height: 200vh;
+
+
+
+    background-position: center;
+    background-size:cover;
+    position: relative;
+
+}
+
+.camion .img-camion .Descripccion{
+
+    font-family: Oswald;
+    font-size: 20px;
+    color:#548235; 
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    z-index: 100;
+
+}
+
+.camion .img-camion .Descripccion hr{
+ 
+    width: 0;
+    height: 20px;
+    color: #fff;
+    border-color: #fff;
+
+}
+.camion .img-camion .Descripccion p{
+    text-align: right;
+    
+    
+
+}
+
+
+.camion .img-camion .Descripccion2{
+    
+     font-family: Oswald;
+     color:#fff; 
+
+     font-family: Oswald;
+     font-size: 20px;
+     color:#fff; 
+     position: absolute;
+     top: 700px;
+     left: 0;
+     width: 100%;
+     height: 50px;
+     display: flex;
+     justify-content: left;
+     flex-direction: column;
+     z-index: 100;
+ 
+ 
+ 
+ }
+ 
+ .camion .img-camion .Descripccion2 hr{
+  
+     width: 0;
+     height: 5px;
+     color: #3d943d;
+     border-color: #3d943d;
+ 
+ }
+ .camion .img-camion .Descripccion2 p{
+     text-align: left;
+     
+ 
+ }
+
+
+ .camion .img-camion .Descripccion21{
+    
+    font-family: Oswald;
+    color:#fff; 
+
+    font-family: Oswald;
+    font-size: 20px;
+    color:#fff; 
+    position: absolute;
+    top: 800px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    z-index: 100;
+
+
+
+}
+
+.camion .img-camion .Descripccion21 hr{
+ 
+    width: 0;
+    height: 5px;
+    color: #3d943d;
+    border-color: #3d943d;
+
+}
+.camion .img-camion .Descripccion21 p{
+    text-align: left;
+    
+
+}
+
+.camion .img-camion .Descripccion22{
+    
+    font-family: Oswald;
+    color:#fff; 
+
+    font-family: Oswald;
+    font-size: 20px;
+    color:#fff; 
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    z-index: 100;
+
+
+
+}
+
+.camion .img-camion .Descripccion22 hr{
+ 
+    width: 0;
+    height: 5px;
+    color: #3d943d;
+    border-color: #3d943d;
+
+}
+.camion .img-camion .Descripccion22 p{
+    text-align: left;
+    
+}
+
+
+
+
+
+/** señor **/
+.señor{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top:0px;
+}
+.señor .figure-img{
+    background: url(../images/FONDO\ PAG\ 2\ mejorado\ vavavavava.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-color:#fff;
+
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.señor .figure-img h4{
+    width: 80%;
+    color:#548235;
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+}
+.señor .figure-img  h4 hr{
+
+    color:#548235;
+    
+}
+.skew-abajo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 5vh 100vw;
+	border-style: solid;
+	border-color: transparent transparent #fff transparent;
+}
+.skew-arriba{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	
+	z-index: 10;
+}
+
+/** Gallery **/
+.gallery-section { 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top:0px;
+}
+
+.gallery-section img{
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+
+}
+
+/** Go Top **/
+.go-top{
+    position: fixed;
+    bottom:30px;
+    right: 100%;
+    width: 50px;
+    height: 50px;
+    background:#AEB7BD;
+    border:3px solid #548235;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.go-top span{
+    font-size:20px;
+    color:#000;
+}
+
+/** Footer **/
+#footer{
+    width:100%;
+    height: 60px;
+    background:#000;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#footer p{
+    color:#fff;
+    font-family: Mexican;
+    font-size:30px;
+}
